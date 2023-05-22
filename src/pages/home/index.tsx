@@ -45,29 +45,25 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hi, I'm {userData.nameUser}</Text>
+              <Text color="grey4">Olá, eu me chamo {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                BREATH
+                RESPIRO
               </Text>{" "}
-              and{" "}
+              e{" "}
               <Text as="span" type="heading1" color="brand1">
-                THINK
+                PENSO
               </Text>{" "}
-              technology
+              tecnologia
             </Text>
             <Text type="body1" color="grey2">
-              In this place, you will find info
-              and news about my works in development
+              Aqui você encontrará informações e novidades a respeito de meus trabalhos em desenvolvimento
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
-              </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+              Ver meus códigos
               </Button>
               <Button
                 color="grey5"

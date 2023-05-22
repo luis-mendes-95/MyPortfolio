@@ -21,7 +21,7 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Obrigado! {/* <HandEffect /> */}
             </Text>
           </Box>
         </Flex>

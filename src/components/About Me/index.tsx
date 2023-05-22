@@ -43,10 +43,10 @@ export const AboutMe = (): JSX.Element => {
 
   return (
     <>
-      <Container style={{margin: "50px"}}>
+      <Container style={{ margin: "50px" }}>
         <Flex>
           <AboutMeWrapper>
-            <AboutMeTitle id="about-me">About me</AboutMeTitle>
+            <AboutMeTitle id="about-me">Sobre mim</AboutMeTitle>
             <AboutMeStack>
               <Text></Text>
               <AboutMeStackTech>
@@ -54,34 +54,43 @@ export const AboutMe = (): JSX.Element => {
               </AboutMeStackTech>
             </AboutMeStack>
             <Text>
-              Since i've been a kid, always been close to computers and stuff, I
-              worked in IT area for long years, then I went to the entrepreneur
-              challenges and started a new business of products customizations,
-              and then I used a lot of tech to build and rebuild the business
-              proccesses as it was needed. And nowadays i keep studying those
-              techs and languages to keep building even harder and complexes
-              solutions. <b>See my prototypes:</b>
+              Desde que era criança, sempre estive próximo a computadores e
+              coisas do tipo. Trabalhei na área de TI por muitos anos e depois
+              enfrentei os desafios de empreendedorismo, iniciando um novo
+              negócio de customização de produtos. Utilizei muita tecnologia
+              para construir e reconstruir os processos comerciais conforme
+              necessário. Atualmente, continuo estudando essas tecnologias e
+              linguagens para criar soluções ainda mais difíceis e complexas.
+              <b>Veja meus protótipos:</b>
             </Text>
             <Text></Text>
             <AboutMeLinks>
-              <Flex style={{flexDirection: "column", gap: "30px", justifyContent: "center", alignItems: "center"}}>
-              <AboutMeLink
-                target="_blank"
-                href={`https://${"project-01-luis-mendes-95.vercel.app/home/"}`}
+              <Flex
+                style={{
+                  flexDirection: "column",
+                  gap: "30px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
-                MyCompany "Business Manager"
-              </AboutMeLink>
-              <AboutMeLink
-                target="_blank"
-                href={`https://${"mundo-do-rock-react-ts-luis-mendes-95.vercel.app/"}`}
-              >
-                Mundo do Rock "Sales Manager"
-              </AboutMeLink>
-              <AboutMeLink
-                target="_blank"
-                href={`https://${"react-entrega-hamburgueria-v2-luis-mendes-95.vercel.app/"}`}
-              >Kenzie Burger "Ecommerce"
-              </AboutMeLink>
+                <AboutMeLink
+                  target="_blank"
+                  href={`https://${"project-01-luis-mendes-95.vercel.app/home/"}`}
+                >
+                  MyCompany "Business Manager"
+                </AboutMeLink>
+                <AboutMeLink
+                  target="_blank"
+                  href={`https://${"mundo-do-rock-react-ts-luis-mendes-95.vercel.app/"}`}
+                >
+                  Mundo do Rock "Sales Manager"
+                </AboutMeLink>
+                <AboutMeLink
+                  target="_blank"
+                  href={`https://${"react-entrega-hamburgueria-v2-luis-mendes-95.vercel.app/"}`}
+                >
+                  Kenzie Burger "Ecommerce"
+                </AboutMeLink>
               </Flex>
             </AboutMeLinks>
           </AboutMeWrapper>
